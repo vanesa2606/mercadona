@@ -1,0 +1,209 @@
+header > button {
+    border-radius: 30px !important;
+    background-color: #e13507 !important;
+}
+
+header{
+    margin: 30px;
+}
+
+nav{
+    background-color: #00754D;
+}
+
+nav a{
+
+    color: white;
+    font-size: 1.2em;
+    font-weight: 300;
+    
+}
+nav a:hover{   /*Tipos de enlaces que hay: link, visited, hover, active*/
+    color:yellow;
+}
+.titulo{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.titulo > h1{
+    color:#00754D;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-group{
+    margin-left: 100px;
+    margin-right:100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    ;
+}
+
+.card-title{
+    color:#005e3e;
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    font-weight: bold;
+}
+
+.card-footer{
+    color: #666666;
+    text-align: center; /*alineacion*/
+}
+
+.card-footer > button{
+    color:#005e3e;
+    font-weight:bold;
+    border-radius:30px;
+    background-color: white; /*fondo*/
+    border-color: #b8b4b4; /*el color del borde*/
+    border-width: 1px;  /*Esto es el borde del boton*/
+    margin-top: 5px; /*El espacio*/
+}
+
+.card-footer > button:hover{   /*Esto es para que al pasar el cursor se cambie a otro color*/
+    background-color: rgb(226, 221, 221);
+    color: #005e3e;
+    font-weight:bold;
+    border-color: #b8b4b4;
+    border-width: 1px;
+}
+
+p:first-child{
+    text-align: center;  
+    color:#005e3e;
+    font-weight:bold;
+}
+
+#formulario .input-group button{
+
+    /*border-radius: 20px; redondear todo el boton*/
+   border-top-right-radius: 20px; /*redondear el botonun de un lado*/
+   border-bottom-right-radius: 20px;
+   /*margin-left: -30px; Lo estoy llevando encima del input*/
+   background-color: #00754d;
+   color: white;
+   
+}
+
+#formulario input{
+    /*border-radius: 20px;*/
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+ }
+
+#formulario > p{
+    margin-bottom:150px;
+}
+
+
+#formulario > h5{
+    text-align: center;  
+}
+
+#anuncios  .col:first-child{
+    background-color: #218050;
+    padding-top:50px;
+    padding-bottom:100px;
+}
+
+#anuncios  .col:last-child{
+    background-color: #17633D;
+}
+#anuncios .col{
+    color:white;
+    text-align: center;
+    vertical-align:middle; /* */
+    padding-top:50px;  /*margen de dentro "arriba"*/
+    padding-bottom:50px;  /*margen de dentro "abajo"*/
+    padding-left:100px;  /*margen de dentro "izquierda"*/
+    padding-right:100px;  /*margen de dentro "derecha"*/
+
+}
+#anuncios .col > h1{
+    font-weight:bold;
+}
+
+
+#anuncios .col p{
+    margin-top:40px;
+}
+
+#ofertas-empleo{
+    color:#005e3e;
+    text-align: center;
+    margin-top:100px;
+    margin-bottom:100px;
+
+}
+
+#ofertas-empleo > button{
+    color:#005e3e;
+    font-weight:bold;
+    border-radius:30px;
+    background-color:white; /*fondo*/
+    border-color: #b8b4b4; /*el color del borde*/
+    border-width: 1px;
+
+}
+
+#ofertas-empleo > button:hover{
+color:white;
+background-color: #00754D;
+}
+
+#ofertas-empleo > h1{
+    font-weight:bold;
+}
+
+#logo-footer{
+    margin-top:150px;
+    margin-bottom:30px;
+}
+
+
+footer .row:first-child{
+    background: #00754D;
+    color:white;
+    padding-top:50px;
+    padding-left:150px;
+    padding-right:100px;
+    padding-bottom:40px;
+}
+
+footer ul{
+    list-style-type:none; /*Esto es para que te salga una lista sin puntos numerda... vamos solo la lista sin nada mas*/
+    padding-left:0px;
+}
+
+footer .row:first-child p i{
+    font-size:xx-large;
+    margin-right:10px;
+}    
+
+footer .row:last-child ul li{
+    display:inline;  /* Esto es para que la lista salga lateral*/
+    font-size: smaller;
+}
+h6{
+    font-size: smaller;
+}
+
+footer .row:last-child .cold-md-4{
+    padding-left:10px;
+    font-size: smaller;
+    text-align:left;
+}
+
+footer .row:last-child .col-md-8{
+    padding-right:50px;
+    text-align: right;
+}
+footer a{
+    color:#afaaaa;
+}
+
+footer a:hover{
+    color:black;
+}
